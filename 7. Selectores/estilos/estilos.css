@@ -1,6 +1,40 @@
+/*Selector universal*/
 *{
     background-color:#367C2B;
 }
-h1 {
+/*Selector de elementos*/
+h1, address {
     background-color:#FFDE00;
+}
+
+/*Selector de clase*/
+p.negro{
+    background-color:#000000;
+    color: #ffffff;
+}
+div ol,li{
+    background-color:#000000;
+}
+
+/*Selector de ID*/
+p#amarillo{
+    background-color: #FFDE00;
+    color: #000000;
+}
+div{
+    border-color: #000000;
+    border-width: 10px;
+    border-style:groove
+}
+/*Selector descendiente*/
+div p{
+    background-color:#000000;
+    color: #ffffff;
+}
+div ol{
+    color: #ffffff;
+}
+/*Selector hijo*/
+div.2>p{
+    color:white;
 }
