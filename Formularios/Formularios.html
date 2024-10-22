@@ -1,37 +1,56 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formularios</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Ejercicio de Formularios</h1>
     <form action="">
-        Nombre <input type="text" name="nombre" id="nombre" placeholder="Pon tu nombre">
-       <br><label for="apellidos"> Apellidos <input type="text" name ="apellidos" id="apellidos" placeholder="Indica tus apellidos"></label>
-       <br>Número favorito <input type="number" name ="numerofavorito" id="numerofavorito">
-       <br>Fecha de nacimiento <input type="date">
-       <br><label for="horadeentrada">Hora de entrada <input type="time"></label>
-       <br>Frase <input type="text" name ="frase" id="frase" value="Mariscos Recio, el mar...">
-       <br><label>Contraseña<input type="password"></label>
-       <br><label>Indique su color de piel: <input type="color"></label>
-       <br>Indique sus ganas de venir (Del 1 al 10) <input type="range" max="10" min="0" list="lista-range">
-       <datalist id="lista-range">
-         <option value="2">
-         <option value="4">
-         <option value="6">
-         <option value="8">
-        </datalist>
-       <br><label for="teletrabajo">Teletrabajo <input type="checkbox"></label>
-       <br>Mañana:<input type="radio" name="horario" id="horario">
-        Tarde:<input type="radio" name="horario" id="horario">
-        Noche:<input type="radio" name="horario" id="horario">
-       <br>Intereses:
-       <br><label for="deportes">Deportes:<input type="checkbox"></label>
-       <label for="musica">Música:<input type="checkbox"></label>
-       <br><input type="submit">
-       <br><input type="reset">
+      Nombre
+      <input
+        type="text"
+        name="nombre"
+        id="nombre"
+        placeholder="Pon tu nombre">
+      <br><label for="apellidos">
+        Apellidos
+        <input
+          type="text"
+          name="apellidos"
+          id="apellidos"
+          placeholder="Indica tus apellidos"></label>
+      <br>Número favorito
+      <input type="number" name="numerofavorito" id="numerofavorito" />
+      <br>Fecha de nacimiento <input type="date" /> <br /><label
+        for="horadeentrada">Hora de entrada <input type="time"></label>
+      <br>Frase
+      <input
+        type="text"
+        name="frase"
+        id="frase"
+        value="Mariscos Recio, el mar...">
+      <br><label>Contraseña<input type="password" /></label> <br /><label
+        >Indique su color de piel: <input type="color"></label>
+      <br>Indique sus ganas de venir (Del 1 al 10)
+      <input type="range" max="10" min="0" list="lista-range" />
+      <datalist id="lista-range">
+        <option value="2"></option>
+        <option value="4"></option>
+        <option value="6"></option>
+        <option value="8"></option>
+      </datalist>
+
+      <br><label for="teletrabajo">Teletrabajo <input type="checkbox"/></label>
+      <br>Mañana:<input type="radio" name="horario" id="horario" />
+      Tarde:<input type="radio" name="horario" id="horario" /> Noche:<input
+        type="radio"
+        name="horario"
+        id="horario"/>
+      <br>Intereses: <br /><label for="deportes">Deportes:<input type="checkbox"/></label>
+      <label for="musica">Música:<input type="checkbox"/></label>
+      <br /><input type="submit" /> <br /><input type="reset" />
     </form>
-</body>
+  </body>
 </html>
