@@ -24,7 +24,8 @@ p#amarillo{
 div{
     border-color: #000000;
     border-width: 10px;
-    border-style:groove
+    border-style:groove;
+    border-radius: 20px;
 }
 /*Selector descendiente*/
 div p{
@@ -35,6 +36,20 @@ div ol{
     color: #ffffff;
 }
 /*Selector hijo*/
-div.2>p{
-    color:white;
+div.d2<div{
+    color:yellow;
+}
+div.d3{
+    padding: 3px 10px;
+    border: rgb(0, 0, 0) 5px solid;
+    border-width: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-style: groove;
+}
+div.d4{
+    border: rgb(0, 0, 0) 60px solid;
+    border-image-source:url("/7.\ Selectores/img/mamahuevo.png");
+    text-align: justify;
+    border-image-slice: 20%;
 }
