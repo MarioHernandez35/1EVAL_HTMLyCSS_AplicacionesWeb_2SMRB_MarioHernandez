@@ -6,34 +6,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Texto en línea</title>
     <style>
-      p.p1{
+      @import url("https://fonts.googleapis.com/css2?family=Danfo&display=swap");
+      p.p1 {
         line-height: 200%;
-        font-size: smaller;
-        font-family: 'Courier New', Courier, monospace;
-        font-style:oblique;
-      }
-      p.p2{
-        line-height: 300%;
         font-size: larger;
-        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-style:italic
+        font-family: "Courier New", Courier, monospace;
+        font-style: oblique;
+        text-shadow: rgb(110, 3, 167) 6px 6px 3px;
+      }
+      p.p2 {
+        line-height: 300%;
+        font-size: smaller;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        font-style: italic;
+      }
+      body {
+        text-align: center;
+        color: rgb(0, 0, 0);
+      }
+      img.f-centrado {
+        vertical-align: middle;
+      }
+      h3.ph3 {
+        text-indent: 100px;
+      }
+      p.p3 {
+        letter-spacing: 5px;
+        text-decoration: underline;
+        text-transform: lowercase;
+        font-family: "Afacad";
+      }
+      @font-face {
+        font-family: "F1";
+        src: url(Formula1-Regular.otf);
+      }
+      p.p4 {
+        word-spacing: 3px;
+        text-transform: uppercase;
+        font-family: "F1";
+        font-size: small;
+      }
+      @import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Atomic+Age&display=swap");
+      @font-face {
+        font-family: "Afacad";
+        src: url("letra.woff2");
+      }
+      span.anio {
+        text-decoration: line-through;
+      }
+      p.p5 {
+        font-family: "Danfo";
+        font-size: 150%;
+      }
+      html {
+        background: url(Chapa-Diamante.png);
       }
     </style>
   </head>
   <body>
-    <center> <!--Quitar center y usar CSS-->
     <h1><strong>Pablo</strong> &#x1f3cd;&#xfe0f;</h1>
-    <p class="p1">Creador del <strong><em>Hormiguero</em></strong></p>
+    <p class="p1">
+      Creador del <strong><em>Hormiguero</em></strong>
+    </p>
     <p class="p2">
-      Nació en <em>Requena</em> <s>(Murcia)</s> <small>(Valencia)</small> <time datetime="1965-08-31"> 31 de agosto de 1965</time> </p>
-    <p>
+      Nació en <em>Requena</em> <s>(Murcia)</s> <small>(Valencia)</small>
+      <time datetime="1965-08-31"> </time> <span class="anio" de agosto de 1965
+    </p>
+    <p class="p3">
       Empezó su carrera mediática como locutor y como
       <strong>disc-jockey</strong> y director de la Radio de Requena.
     </p>
-    Donde ha presentado y dirigido programas como <em>Aquí hay más de uno</em>, <em>Mareando
-    la perdiz</em> o <em>Hacia el dos mil</em>
-    <h3>Etapa de televisón</h3>
-    <img src="pablomotos.jpg"/>
-</center> <!--Quitar center y usar CSS-->
+    <p class="p5">
+      Donde ha presentado y dirigido programas como
+      <em>Aquí hay más de uno</em>, <em>Mareando la perdiz</em> o
+      <em>Hacia el dos mil</em>
+    </p>
+    <h3 class="ph3">Etapa de televisón</h3>
+    <p class="p4">
+      <mark>En la televisión ha protagonizado programas como Megacine,</mark> en
+      Canal Nou (televisión de la Comunidad Valenciana), y fue uno de los
+      creadores de <img src="/2. Texto en linea/img/pablomotos.jpg" height=75"
+      class="f-centrado" /> El club de la comedia. Coordinó los guiones de los
+      tres primeros años. En esa época creó el programa La noche... con Fuentes
+      y cía, del que fue coordinador de guion y productor ejecutivo. También
+      trabajó en La hora de José Mota con una aparición haciendo de Vincent Van
+      Gogh.
+    </p>
   </body>
 </html>
