@@ -52,4 +52,5 @@ div.d4{
     border-image-source:url("/7.\ Selectores/img/mamahuevo.png");
     text-align: justify;
     border-image-slice: 20%;
+    border-image-repeat: repeat;
 }
