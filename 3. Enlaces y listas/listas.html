@@ -8,9 +8,33 @@
       ol{
         list-style-type: upper-roman
       }
+      ul.menu{
+        list-style-type:none;
+      } 
+      li.submenu{
+        float: left;
+        width: 200px;
+        background-color: hsl(238, 97%, 29%);
+        color: white;
+        font-size: 25px;
+        padding: 10px;
+        text-align: center;
+      }
+      li.submenu:hover{
+        background-color: black;
+      }
     </style>
   </head>
   <body>
+    <H3>Menú horizontal con listas</H3>
+    <ul class="menu">
+      <li class="submenu">Futbol</li>
+      <li class="submenu">Baloncesto</li>
+      <li class="submenu">Motor</li>
+      <li class="submenu">Polideportivo</li>
+      <li class="submenu">Coches</li>
+    </ul>
+    <br><br>  
     <h1>Ejercicio de Listas</h1>
     <h2 id="enlacelistasordenadas">Listas ordenadas</h2>
     <ol start="5">
