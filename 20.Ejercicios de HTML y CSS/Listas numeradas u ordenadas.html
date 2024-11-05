@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Listas numeradas u ordenadas</title>
+    <style>
+      ol.letras {
+        list-style-type: upper-roman;
+      }
+      ol.saltos {
+            initial-value: 5;
+      }
+    </style>
+  </head>
+  <body>
+    <hr />
+    <strong>Lista de paises numerados del 1 al 4</strong>
+    <ol>
+      <li>España</li>
+      <li>Francia</li>
+      <li>Portugal</li>
+      <li>Italia</li>
+    </ol>
+    <hr />
+    <strong>Lista de paises numerados con saltos</strong>
+    <ol class="saltos">
+      <li>España</li>
+      <li>Francia</li>
+      <li value="5">Portugal</li>
+      <li>Italia</li>
+    </ol>
+    <strong>Lista de paises numerados con letras</strong>
+    <ol class="letras">
+      <li>España</li>
+      <li>Francia</li>
+      <li>Portugal</li>
+      <li>Italia</li>
+    </ol>
+  </body>
+</html>
